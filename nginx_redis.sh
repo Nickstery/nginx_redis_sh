@@ -23,7 +23,7 @@ make
 make install
 cd utils
 ./install_server.sh
-rm -rf redis-stable
-rm -rf nginx-1.9.12
+rm -rf /opt/redis-stable
+rm -rf /opt/nginx-1.9.12
 service redis_6379 start
 service nginx start
