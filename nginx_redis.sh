@@ -26,4 +26,4 @@ cd utils
 rm -rf redis-stable
 rm -rf nginx-1.9.12
 service redis_6379 start
-service nginx restart
+service nginx start
