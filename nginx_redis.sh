@@ -4,6 +4,7 @@ apt-get install libpcre3 libpcre3-dev  zlib1g-dev git build-essential tcl8.5
 wget 'http://nginx.org/download/nginx-1.9.12.tar.gz'
 tar -xzvf nginx-1.9.12.tar.gz
 rm -rf nginx-1.9.12.tar.gz
+git clone https://github.com/openresty/redis2-nginx-module.git
 cd nginx-1.9.12/
 ./configure --prefix=/opt/nginx --add-module=/opt/redis2-nginx-module
 make -j2
