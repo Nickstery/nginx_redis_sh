@@ -8,7 +8,7 @@ git clone https://github.com/openresty/redis2-nginx-module.git
 git clone https://github.com/openresty/set-misc-nginx-module.git
 git clone https://github.com/simpl/ngx_devel_kit.git
 cd nginx-1.9.12/
-./configure --prefix=/opt/nginx --add-module=/opt/redis2-nginx-module --add-module=/opt/set-misc-nginx-module --add-module=ngx_devel_kit
+./configure --prefix=/opt/nginx --add-module=/opt/redis2-nginx-module --add-module=ngx_devel_kit --add-module=/opt/set-misc-nginx-module
 make -j2
 make install
 cp -i /opt/nginx_redis_sh/nginx.conf /opt/nginx/conf/nginx.conf
