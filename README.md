@@ -3,7 +3,7 @@ sh script for nginx + redis module
 
 #Requirements
 1. Run sh from with sudo rights
-2. clone this repo in opt folder or change "cp -i /opt/nginx.conf /opt/nginx/config/nginx.conf" to "cp -i /path/to/cloned/project/nginx.conf /opt/nginx/config/nginx.conf"
+2. Clone this repo in opt folder or change "cp -i /opt/nginx.conf /opt/nginx/config/nginx.conf" to "cp -i /path/to/cloned/project/nginx.conf /opt/nginx/config/nginx.conf"
 
 #Links
 nginx + redis [module](https://github.com/openresty/redis2-nginx-module).

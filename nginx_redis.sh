@@ -8,7 +8,7 @@ cd nginx-1.9.12/
 ./configure --prefix=/opt/nginx --add-module=/opt/redis2-nginx-module
 make -j2
 make install
-cp -i /opt/nginx.conf /opt/nginx/config/nginx.conf
+cp -i /opt/nginx_redis_sh/nginx.conf /opt/nginx/config/nginx.conf
 cd ..
 wget -O init-deb.sh https://www.linode.com/docs/assets/660-init-deb.sh
 mv init-deb.sh /etc/init.d/nginx
